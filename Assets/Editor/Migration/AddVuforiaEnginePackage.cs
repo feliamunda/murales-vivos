@@ -10,7 +10,7 @@ public class AddVuforiaEnginePackage
 {
     static readonly string sPackagesPath = Path.Combine(Application.dataPath, "..", "Packages");
     static readonly string sManifestJsonPath = Path.Combine(sPackagesPath, "manifest.json");
-    const string VUFORIA_VERSION = "10.0.12";
+    const string VUFORIA_VERSION = "10.1.4";
     const string PACKAGE_KEY = "com.ptc.vuforia.engine";
     const string GIT_URL = "git+https://git-packages.developer.vuforia.com";
     const string VUFORIA_TAR_FILE_DIR = "Assets/Editor/Migration/";
@@ -106,7 +106,6 @@ public class AddVuforiaEnginePackage
         }
         catch (Exception e)
         {
-            Debug.LogError(e);
             return new Version();
         }
 
