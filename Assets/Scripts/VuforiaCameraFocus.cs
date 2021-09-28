@@ -5,7 +5,7 @@ using Vuforia;
 
 public class VuforiaCameraFocus : MonoBehaviour
 {
-    private bool statusTracking = true;
+    /*private bool statusTracking = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,5 +44,5 @@ public class VuforiaCameraFocus : MonoBehaviour
             statusTracking = true;
             TrackerManager.Instance.GetTracker<ObjectTracker>().Start();
         }
-    }
+    }*/
 }

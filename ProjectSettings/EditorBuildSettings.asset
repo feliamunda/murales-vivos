@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Clase4-29del5.unity
     guid: 863adecf012724b42912d4d08bc493da
   - enabled: 1
-    path: Assets/Scenes/Rastreo.unity
+    path: Assets/Scenes/Main.unity
     guid: cbf1d9de8ad0fae4a9ba57b317653779
   m_configObjects: {}
