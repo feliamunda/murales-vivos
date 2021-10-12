@@ -11,7 +11,6 @@ public class RequestResource : MonoBehaviour
     private string _urlBase = "http://awesome-walls.feliamunda.com/wp-json/wp/v2/resources/";
     private Resource _resource;
     public Resource Resource { get => _resource; }
-    //public string BundleName;
 
     void OnEnable()
     {
@@ -43,6 +42,7 @@ public class RequestResource : MonoBehaviour
                 _resource.id = json["id"];
                 _resource.name = json["item_name"];
                 _resource.asset_name = json["asset_name"];
+                _resource.ui_hint = json["ui_hint"];
                 StartCoroutine(GetAssetBundle(json["asset_bundle"]["guid"]));
                 break;
         }

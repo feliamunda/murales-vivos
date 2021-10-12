@@ -10,6 +10,7 @@ namespace JSONObjects
         public string name;
         public string asset_name;
         public AssetBundle asset_bundle;
+        public string ui_hint;
     }
 }
 
