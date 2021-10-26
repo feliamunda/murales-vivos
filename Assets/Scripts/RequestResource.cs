@@ -62,6 +62,7 @@ public class RequestResource : MonoBehaviour
             // Get downloaded asset bundle
             _resource.asset_bundle = DownloadHandlerAssetBundle.GetContent(request);
             Debug.Log("Loaded " + _resource.name);
+            Debug.Log("Loaded " + _resource.asset_bundle);
         }        
     }
 }
