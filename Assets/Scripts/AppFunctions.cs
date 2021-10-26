@@ -15,7 +15,7 @@ public class AppFunctions: MonoBehaviour
     public void Start()
     {
         _infoText = _infoObject.GetComponentInChildren<TextMeshProUGUI>();       
-        _infoText.text = "Bienvenid@, tu primera tarea es: \n \"Cerca se encuentra un miembro de la familia Camélidos, la última vez que fue visto estaba junto a un hombre con ruana\"";
+        _infoText.text = "Bienvenid@, tu primera pista es: \n \"en la plaza Parque Patricios se encuentra un miembro de la familia camélidos, se lo vio por ultima vez junto a un hombre con ruana\"";
         _menuObject.SetActive(true);
     }
 
